@@ -1,55 +1,41 @@
 # CapCut Template Producers Skill
 
-A complete AI-assisted system for brainstorming, planning, and producing **Pro-standard CapCut templates** targeting the English-speaking global market (primarily US).
+A reusable AI skill for planning and producing Pro-standard CapCut templates for global English-speaking audiences.
 
----
+It turns trend signals, seasonal moments, available assets, and a chosen template category into a build-ready production blueprint: shot order, named CapCut tools, fallbacks, timeline instructions, audio cues, and a publishing package.
 
-## 🎯 Purpose
+## Start Here
 
-Turn daily trend signals, seasonal events, and creative instincts into **ready-to-build CapCut template blueprints** — complete with timeline instructions, effects, audio plans, voice signature lines, and a publishing package.
+- [SKILL.md](SKILL.md) is the canonical entrypoint for Codex-compatible skill use.
+- [skills.md](skills.md) is the detailed brainstorming prompt for chat-based use.
+- [style-playbooks.md](style-playbooks.md) contains the production setlist for every supported category.
+- [output-template.md](output-template.md) is the required structure for a complete blueprint.
 
----
+## Supported Template Categories
 
-## 📁 Files
+Trending-song / beat-sync, daily vlog, travel, birthday, anniversary, religion / reflection, fitness / sport, fashion / cutout / GRWM, business / unboxing, kids / baby / family, motivation / glow-up, food / café, and trailer / teaser / cinematic.
 
-| File | Purpose |
-|---|---|
-| `skills.md` | Main AI skill prompt — the creative director brain |
-| `output-template.md` | Required output structure for every template concept |
-| `voice-style-guide.md` | Voice/chill-rap identity + Gemini generation prompt |
-| `trend-inputs.md` | Daily CapCut trending keyword inputs (update manually) |
-| `monthly-moments.md` | US-focused seasonal & cultural event calendar |
-| `effects-library.md` | CapCut effects & transitions reference by use case |
-| `sfx-library.md` | SFX & BGM reference organized by mood and function |
-| `published-templates.csv` | Log of published templates with performance notes |
-| `postmortem-notes.md` | What worked, what didn't — pattern recognition log |
+Each category has one detailed default setlist with:
 
----
+- Preferred filter and a visual-intent fallback
+- Hook, atmosphere, and payoff effects with placements
+- Beat-aware transition language
+- Font pairing, text treatment, and safe-zone direction
+- Overlay, pacing, shot-order, BGM, and SFX guidance
+- Combinations and content choices to avoid
 
-## 🚀 How to Use
+## How to Use
 
-1. Open `trend-inputs.md` and fill in today's trending keywords from CapCut.
-2. Check `monthly-moments.md` for relevant upcoming events.
-3. Open `skills.md` in your AI assistant (Perplexity / Claude / Gemini).
-4. Fill in the **Context Inputs** section.
-5. Let the AI run the Decision Process and generate full blueprints.
-6. Use `output-template.md` as the expected output format.
-7. Use `voice-style-guide.md` + Gemini to generate your voice signature.
-8. Build the template in CapCut following the Timeline Blueprint.
-9. Run through the **QA Checklist** before posting.
-10. Log the result in `published-templates.csv` and `postmortem-notes.md`.
+1. Update [trend-inputs.md](trend-inputs.md) with current CapCut search signals.
+2. Check [monthly-moments.md](monthly-moments.md) for a relevant upcoming moment.
+3. Choose a category or ask the skill to recommend one.
+4. Read that category in [style-playbooks.md](style-playbooks.md).
+5. Generate concepts through [skills.md](skills.md), then complete [output-template.md](output-template.md).
+6. Build the edit in CapCut and substitute the fallback only when the preferred named tool is unavailable.
+7. Complete the QA checklist, publish with natural English metadata, and log results in [published-templates.csv](published-templates.csv).
 
----
+## Quality and Safety
 
-## ✍️ Signature Lanes
+Every template is 9:16, at least 15 seconds, includes at least three replaceable media slots, hooks within two seconds, and has a clear payoff. Use high-quality footage without brands, public figures, watermarks, or unsafe material. Use only original, licensed, or CapCut-cleared audio and never attempt to bypass copyright checks.
 
-| Lane | Mood | Voice |
-|---|---|---|
-| **Midnight Memoir** | Dark, nostalgic, reflective | Whisper / soft spoken |
-| **Soft Flex** | Confident, cool, quiet luxury | Chill rap / spoken word |
-| **Memory Film** | Warm, nostalgic, bittersweet | Warm narration |
-| **Weekend Escape** | Free, adventurous, cinematic | Spoken word / ambient |
-
----
-
-*Built by [@nandabuild-md](https://github.com/nandabuild-md)*
+Built by [@nandabuild-md](https://github.com/nandabuild-md).
